@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.wonder {
+    @apply p-4 bg-white rounded shadow-md;
+  }
+  
+  .wonder h2 {
+    @apply text-xl font-bold mb-2;
+  }
+  
+  .wonder p {
+    @apply text-gray-700;
+  }
+  
+  .wonder img {
+    @apply w-full h-64 object-cover mt-4 rounded;
+  }
